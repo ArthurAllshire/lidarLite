@@ -16,6 +16,7 @@ Install the Wiring library for your board:
 Download the Zipfile and extract to a directory
 
 Then:
+
 cd lidarLite
 
 cmake
