@@ -19,13 +19,16 @@ Then:
 
 cd lidarLite
 
-cmake
+cmake .
 
 sudo make
 
 gpio load i2c # this command loads the wiringpi i2c stuff
 
-sudo ./lidarTest
+sudo ./broadcastLidar #this command will do the same thing as lidartest but it will also broadcast in string form as float
+
+#if you change the cmake settings
+sudo ./lidarTest 
 
 Library interfaces
 
