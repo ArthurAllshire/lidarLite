@@ -15,8 +15,16 @@ Install the Wiring library for your board:
 
 Download the Zipfile and extract to a directory
 
-* run cmake
-* run make
+Then:
+cd lidarLite
+
+cmake
+
+sudo make
+
+gpio load i2c # this command loads the wiringpi i2c stuff
+
+sudo ./lidarTest
 
 Library interfaces
 
